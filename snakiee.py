@@ -38,7 +38,7 @@ def gameLoop():
     while not gameExit:
         while gameOver:
             gameDisplay.fill(white)
-            message_to_screen("Game over, press Q to quit or C to play again", red)
+            message_to_screen("Game over, press Q to quit or C to try & play again", red)
             pygame.display.update()
             for event in pygame.event.get():
                 if event.type == pygame.KEYDOWN:
