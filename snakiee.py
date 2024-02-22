@@ -94,7 +94,7 @@ def gameLoop():
         pygame.display.update()
 
 
-        clock.tick(15)
+        clock.tick(20)
 
     pygame.quit()
     quit()
